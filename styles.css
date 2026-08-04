@@ -4,7 +4,7 @@
 }
 #container{
     height:1000px;
-    width:1200px;
+    width:1100px;
     background: yellow;
     margin:0.5em auto;
     padding:0.5em;
@@ -36,6 +36,8 @@
     color: #fff;
     text-align:center;
     background: cyan;
+    border-radius: 0.5em;
+
 }
 #section{
     float:left;
@@ -62,7 +64,7 @@
     border-radius:0.5em;
 }
 #footer{
-    height:12%;
+    height:10%;
     margin: 0.5em;
     background:#424242;
     border-radius: 0.5em;
