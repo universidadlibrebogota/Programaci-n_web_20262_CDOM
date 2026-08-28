@@ -21,7 +21,7 @@ export function Card(){
         Pokemon.map((item,index)=>{
             return(
             <div className='card' key={index}>
-                <h1>Numero:{item.id} </h1>
+                <h1>Número:{item.id} </h1>
                 <h2>Nombre: {item.nombre}</h2>
                 <img className='imagen' src={item.imagen} alt={item.alt} />
 
