@@ -1,0 +1,11 @@
+body{
+    color:rgb(200, 255, 0);
+    text-align:center;
+}
+.btn-primary {
+    background-color:blue;
+    border-radius: 0.5em;
+}
+.btn-primary-reset{
+    background-color:red;
+}
