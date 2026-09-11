@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import './Figuras.css'
 export function Figuras(){
-    // Estados o hooks para los numeros, opcions y resultado
+    // Estados o hooks para los numeros, opcion y resultado
     const [base, setBase]= useState('');
     const [altura, setAltura]= useState('');
     const [rta, setRta]= useState(null);

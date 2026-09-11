@@ -30,11 +30,11 @@ export function Calculadora(){
                         }
                         break;
             
-            default: result = 0;
+            default: result = '0' ;
                         
         }
         setRta(result);
-    }
+    };
     return (
         <div style={{
             padding: '20px',
@@ -58,10 +58,10 @@ export function Calculadora(){
             <select value={signo}
                     onChange={(e)=>setSigno(e.target.value)}
             >
-                <option value="suma">+</option>
-                <option value="resta">-</option>
-                <option value="multi">*</option>
-                <option value="divi">/</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
             </select>
             {/*Solicitar el segundo numero*/}
             <input type="number" 
