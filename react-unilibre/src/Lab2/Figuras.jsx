@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import './Figuras.css'
 export function Figuras(){
     // Estados o hooks para los numeros, opcions y resultado
     const [base, setBase]= useState('');
@@ -59,7 +60,8 @@ export function Figuras(){
             <select value={opcion}
                     onChange={(e)=>setOpcion(e.target.value)}
             >
-                <option value="Cuadrilatero">Cuadrado o rectangulo</option>
+                <option value="">Seleccione una opcion</option>
+                <option value="Cuadrilatero">Cuadrado y/o rectangulo</option>
                 <option value="Triangulo">Triangulo</option>
                 
             </select>
