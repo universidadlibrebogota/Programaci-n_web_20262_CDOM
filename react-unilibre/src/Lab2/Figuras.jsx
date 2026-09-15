@@ -61,7 +61,7 @@ export function Figuras(){
                     onChange={(e)=>setOpcion(e.target.value)}
             >
                 <option value="">Seleccione una opcion</option>
-                <option value="Cuadrilatero">Cuadrado y/o rectangulo</option>
+                <option value="Cuadrilatero">Cuadrado (mismo valor b y h) y/o rectangulo (diferentes valores)</option>
                 <option value="Triangulo">Triangulo</option>
                 
             </select>
