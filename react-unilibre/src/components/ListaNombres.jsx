@@ -6,7 +6,7 @@ export const ListaNombres =()=>{
     //Funcion para guardar 
     const guardar=()=>{
         setNombres([...nombres,nombre]);
-        setNombres('');
+        setNombre('');
     }
     return(
         <div>
