@@ -1,0 +1,29 @@
+{
+    "equipos":[
+    {
+        "id":1,
+        "equipo":"Millonarios",
+        "pais": "Colombia"
+    },
+     {
+        "id":2,
+        "equipo":"Liverpool",
+        "pais": "Inglaterra"
+    },
+     {
+        "id":3,
+        "equipo":"Bayern",
+        "pais": "Alemania"
+    },
+    {
+       "id":4,
+       "equipo":"Nacional",
+       "pais": "Colombia"
+    },
+     {
+        "id":5,
+        "equipo":"Real Madrid",
+        "pais": "España"
+    }
+    ]
+}
