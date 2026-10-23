@@ -1,0 +1,18 @@
+body{
+    margin:0;
+}
+table{
+    margin:auto;
+    border-radius: 0.7rem;
+}
+btn{
+   border-radius: 0.7rem; 
+}
+#root{
+    width: 1126px;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    border-inline:1px solid var( --border) ;
+    min-height: 100svh;   
+}
